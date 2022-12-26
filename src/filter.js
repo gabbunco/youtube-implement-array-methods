@@ -28,4 +28,3 @@ console.log(newArr);
 
 // 중요: arr 변하면 안됨
 console.log(arr);
-`
