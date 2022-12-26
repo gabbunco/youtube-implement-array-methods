@@ -2,8 +2,6 @@
  * Array.map 을 구현해보기
  */
 
-let arr = [1, 2, 3];
-
 function map(arr, callback) {
   let newArr = [];
 
@@ -14,12 +12,14 @@ function map(arr, callback) {
   return newArr;
 }
 
-let mappedArr = arr.map((each, _index) => {
-  return each + 1;
-});
-console.log(mappedArr); // [2,3,4]
+// 실험
 
-mappedArr = map(arr, (each, _index) => each + 1);
-console.log(mappedArr); // [2,3,4]
+let arr = [1, 2, 3];
 
-console.log(arr)
+// 오리지날
+let newArr = arr.map((each, index) => each + index); // [1, 3, 5]
+console.log(newArr);
+
+// 나의 함수
+newArr = map(arr, (each, index) => each + index); // [1, 3, 5]
+console.log(newArr);
