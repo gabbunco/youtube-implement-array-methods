@@ -1,4 +1,6 @@
-# Implement Array Methods 어레이 메소드 구현해보기
+# Implement Array Methods
+
+어레이 메소드 구현해보기
 
 ## 관련 링크
 
