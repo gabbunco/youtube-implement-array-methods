@@ -10,14 +10,14 @@ function foreach(arr, callback) {
   }
 }
 
-// original forEach
+// 실험
+
+// 오리지날
 arr.forEach((each, index) => {
   console.log(each, index);
 });
 
-console.log("---");
-
-// implemented foreach
+// 나의 함수
 foreach(arr, (each, index) => {
   console.log(each, index);
 });
